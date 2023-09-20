@@ -1,0 +1,10 @@
+python-dotenv
+fire
+pandas
+hopsworks
+hsfs
+sktime
+lightgbm
+wandb
+poetry
+-e .
