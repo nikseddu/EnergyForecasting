@@ -1,8 +1,8 @@
 [tool.poetry]
-name = "batch-prediction-pipeline"
+name = "batch-prediction-pipeline-self"
 version = "0.1.0"
 description = ""
-authors = ["Iusztin Paul <p.e.iusztin@gmail.com>"]
+authors = ["Nikhil <inikhilj@gmail.com>"]
 readme = "README.md"
 packages = [{include = "batch_prediction_pipeline"}]
 
