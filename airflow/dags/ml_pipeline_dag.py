@@ -10,7 +10,7 @@ from airflow.utils.edgemodifier import Label
 @dag(
     dag_id="ml_pipeline",
     schedule="@hourly",
-    start_date=datetime(2023, 4, 14),
+    start_date=datetime(2023, 9, 25),
     catchup=False,
     tags=["feature-engineering", "model-training", "batch-prediction"],
     max_active_runs=1,

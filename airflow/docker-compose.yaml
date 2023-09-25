@@ -304,13 +304,13 @@ services:
     restart: always
     ports:
       - "80:8080"
-    volumes:
-      - ~/.htpasswd:/data/.htpasswd
+    # volumes:
+    #   - ~/.htpasswd:/data/.htpasswd
     command:
       - run
-      - -P
-      - .htpasswd/htpasswd.txt
-      - --overwrite
+      # - -P
+      # - .htpasswd/htpasswd.txt
+      # - --overwrite
 
 volumes:
   postgres-db-volume:
